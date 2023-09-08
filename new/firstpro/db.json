@@ -1,0 +1,25 @@
+{
+    "posts": [
+        
+            {
+              "id": 1,
+              "title": "Image 1",
+              "description": "This is the first image",
+              "url": "/assets/images/php1.jpg"
+            },
+            {
+              "id": 2,
+              "title": "Image 2",
+              "description": "This is the second image",
+              "url": "/assets/images/python.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Image 2",
+                "description": "This is the second image",
+                "url": "/assets/images/angular.jpg"
+              }
+            
+        ]
+    }
+          

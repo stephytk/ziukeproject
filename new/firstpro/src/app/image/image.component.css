@@ -1,0 +1,7 @@
+
+.image-gallery
+{
+    display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center;
+}
