@@ -1,0 +1,9 @@
+<div class="carousel">
+    <div *ngFor="let item of carouselData" class="carousel-item">
+      <!-- Display item content here -->
+      <img [src]="item.url" alt="{{ item.title }}" />
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
+  

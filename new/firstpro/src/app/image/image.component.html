@@ -1,9 +1,13 @@
-
+<h1>COURSES</h1>
 <div class="image-gallery " >
-    <div *ngFor="let image of imageData" class="image-card col-md-2 mt-5 ">
+
+    <div *ngFor="let image of imageData" class="image-card mt-5 ">
+   
       <img [src]="image.url" alt="{{ image.title }} " style="height: 100px;">
       <h2>{{ image.title }}</h2>
       <p>{{ image.description }}</p>
     </div>
-  </div>
-  
+    
+
+
+ 
